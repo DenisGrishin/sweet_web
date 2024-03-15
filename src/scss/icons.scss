@@ -1,0 +1,106 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+[class*="_icon-"] {
+	&::after {
+		@extend %ic;
+		display: block;
+	}
+}
+._icon-no_check:before {
+	content: "\e90e";
+	display: inline-block;
+	margin-left: -1em;
+	border-radius: 50%;
+	background-color: rgb(201, 77, 63);
+	color: rgb(255, 255, 255);
+}
+
+._icon-favorite:before {
+	content: "\e900";
+}
+._icon-accountcircle-fill:before {
+	content: "\e901";
+	color: #fff;
+}
+._icon-adress:before {
+	content: "\e902";
+	color: #0156ff;
+	margin-right: rem(8);
+
+	font-size: rem(35);
+	width: rem(35);
+}
+._icon-arrow::after {
+	content: "\e903";
+}
+._icon-check132:before {
+	content: "\e904";
+	color: #78a962;
+}
+._icon-close:before {
+	content: "\e905";
+}
+._icon-comparisons:before {
+	content: "\e906";
+}
+._icon-edit .path1:before {
+	content: "\e907";
+	color: rgb(255, 255, 255);
+}
+._icon-edit .path2:before {
+	content: "\e908";
+	margin-left: -1em;
+	color: rgb(162, 166, 176);
+}
+._icon-entypo_price:before {
+	content: "\e909";
+	color: #fff;
+}
+._icon-facebook:before {
+	content: "\e90a";
+	color: #fff;
+	font-size: rem(18);
+}
+._icon-instagram:before {
+	content: "\e90b";
+	color: #fff;
+	font-size: rem(18);
+}
+._icon-Logo:before {
+	content: "\e90c";
+	color: #0156ff;
+}
+
+._icon-search:before {
+	content: "\e90f";
+}
+._icon-shopping-cart:before {
+	content: "\e910";
+}
+._icon-support:before {
+	content: "\e911";
+	color: #fff;
+}
+
+._icon-time:before {
+	content: "\e912";
+	color: #0156ff;
+	font-size: rem(35);
+	width: rem(35);
+	margin-right: rem(8);
+}
